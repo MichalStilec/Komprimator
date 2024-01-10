@@ -80,3 +80,13 @@ Program je konzolová aplikace napsaná v jazyce C#, která provádí kompresi t
 - Cesty k souborům jsou konfigurovány v konfiguračním souboru a logy jsou ukládány ve formátu JSON.
 - Program obsahuje ochranu před chybami a zachycuje výjimky, které jsou zaznamenány v logu.
 - Uživatelské rozhraní nabízí uživateli snadné ovládání programu.
+
+## Program byl otestován spolužáky
+![image](https://github.com/MichalStilec/Komprimator/assets/113086016/325b4ed2-46fa-42b6-aed3-9b99ad80b159)
+
+![image](https://github.com/MichalStilec/Komprimator/assets/113086016/9ecc1bd3-fb01-4611-929d-e26383956c2b)
+
+![image](https://github.com/MichalStilec/Komprimator/assets/113086016/dfe0fec2-2358-4c5a-8a01-81fd92fc1b34)
+
+
+
