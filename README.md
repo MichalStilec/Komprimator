@@ -1,5 +1,5 @@
 # Popis programu
-Program je konzolová aplikace napsaná v jazyce C#, která provádí kompresi textového souboru odstraněním samohlásek ze slov. Program také umožňuje uživateli manipulovat s vstupními a výstupními soubory a spravovat místo, kam jsou ukládány logy.
+Program je konzolová aplikace napsaná v jazyce C#, která provádí kompresi textového souboru odstraněním samohlásek ze slov. Program také umožňuje uživateli manipulovat s vstupními a výstupními soubory a spravovat místo, kam jsou ukládány.
 
 ## Způsob použití
 1. Uživatel extrahuje zip soubor.
