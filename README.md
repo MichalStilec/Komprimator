@@ -1,6 +1,10 @@
 # Popis programu
 Program je konzolová aplikace napsaná v jazyce C#, která provádí kompresi textového souboru odstraněním samohlásek ze slov. Program také umožňuje uživateli manipulovat s vstupními a výstupními soubory a spravovat místo, kam jsou ukládány logy.
 
+## Způsob použití
+1. Uživatel stáhne
+2. 
+
 # Struktura programu
 
 ## Třída Program
@@ -41,12 +45,10 @@ Program je konzolová aplikace napsaná v jazyce C#, která provádí kompresi t
 ### Metoda LogError
 - Zaznamenává chyby do logu ve formátu JSON.
   
-## Způsob použití
-1. Program načte konfiguraci a vytvoří instance tříd Config a Logs.
-2. Uživatel volí operace pomocí uživatelského rozhraní.
-3. Program provádí kompresi textového souboru odstraněním samohlásek.
-4. Výsledný komprimovaný text se uloží do souboru specifikovaného v konfiguraci.
-5. Logy se ukládají do souboru ve formátu JSON.
+## Jak měnit soubory
+1. Program načte konfiguraci ze souboru TxtCompression\bin\Debug\net6.0\config\config.cfg, zde si můžete změnit počáteční soubory.
+2. Program také může načíst soubor dle cesty k vámi zadanému souboru, pro tuto možnost zmáčkněte 2 na začátku programu a cestu uvádějte **bez úvozovek!**
+3. Program má taky možnost změnit dle cesty k libovolnému txt souboru i místo uložení komprimovaného textu
 
 ## Ostatní poznámky
 - Program pracuje s českými znaky díky nastavení kódování na Encoding.UTF8.
