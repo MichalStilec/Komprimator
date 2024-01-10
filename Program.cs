@@ -27,7 +27,12 @@ namespace TxtCompression
             {
                 try
                 {
-                    // Uživatelské rozhraní pro volbu možností
+                    // Path to input file
+                    //string inputFilePath = "input.txt";
+
+
+                    // Path to result file
+
                     Console.WriteLine("Právě pracujete se souborem: " + inputFilePath + "\n");
                     Console.WriteLine("Vyberte jednu z možností: \n" +
                                       "1. Zapnout kompresi \n" +
@@ -42,20 +47,23 @@ namespace TxtCompression
                     switch (answer)
                     {
                         case "1":
-                            // Kompresní operace
                             Console.Clear();
-                            string inputText = File.ReadAllText(inputFilePath);
+                            // Reading the content of the input file
+                            string inputText = File.ReadAllText("data/" + inputFilePath);
+
+                            // Removes the vowels
                             string modifiedText = RemoveVowelsFromWords(inputText);
+
+                            // Saving the edited text to the result file
                             File.WriteAllText(resultFilePath, modifiedText);
                             logs.LogSuccess("Komprese souboru " + inputFilePath + " byla uspesna");
                             Console.WriteLine("Komprese souboru " + inputFilePath + " byla úspěšná\n");
                             break;
 
                         case "2":
-                            // Výběr souboru pro kompresi
                             Console.Clear();
                             Console.Write("Napište zde název souboru: ");
-                            string filePath = Console.ReadLine();
+                            string filePath = "data/" + Console.ReadLine();
                             Console.Clear();
                             if (File.Exists(filePath))
                             {
@@ -74,12 +82,67 @@ namespace TxtCompression
                             {
                                 Console.WriteLine("Soubor neexistuje\n");
                             }
+
+                            break;
+
+                        case "3":
+                            Console.Clear();
+                            Console.WriteLine("Pokud si nepřejete změnit cestu pro ukládání výsledku, zmáčkněte ENTER");
+                            Console.Write("Napište zde cestu k souboru .txt pro ukládání výsledku: ");
+                            string savePath = Console.ReadLine();
+                            resultFilePath = savePath;
+                            if (resultFilePath == "")
+                            {
+                                Console.Clear();
+                                Console.WriteLine("Cesta pro ukládání výsledku byla vrácena do původního stavu\n");
+                                resultFilePath = "data/result.txt";
+                            }
+                            else
+                            {
+                                Console.Clear();
+                                logs.LogSuccess("Cesta souboru " + resultFilePath + " byla uspesna");
+                                Console.Write("Úspěšně jste nastavili novou cestu pro ukládání výsledku\n");
+                            }
+
+                            break;
+
+                        case "4":
+                            Console.Clear();
+                            Console.WriteLine("--------------------------------------------------------------------------------------------\n" +
+                                              "1. Zapnout kompresi: Tato volba provede kompresi obsahu zadaného souboru. \n" +
+                                              "   Program odebere samohlásky z jednotlivých slov a výsledek uloží do nového souboru.\n\n" +
+                                              "2. Vybrat soubor pro kompresi: Umožňuje uživateli vybrat jiný vstupní soubor pro kompresi. \n" +
+                                              "   Zadejte název souboru, který chcete komprimovat (musí být v bin/Debug/net6.0/data).\n" +
+                                              "   Pokud chcete vybrat soubor mimo složku net6.0, uveďte cestu k souboru bez \"\".\n" +
+                                              "   Také je možné zadat název souboru před spuštěním programu v configu \n" +
+                                              "   (bin/Debug/net6.0/config/config.cfg). \n\n" +
+                                              "3. Změnit místo uložení výsledku: Změní, dle vaší cesty, místo uložení výsledného souboru\n\n" +
+                                              "4. Nápověda: Zobrazí tuto nápovědu, která vysvětluje jednotlivé možnosti programu.\n\n" +
+                                              "5. Unit testy: Zobrazí jak program funguje a výsledek testu.\n\n" +
+                                              "0. Ukončit program: Ukončí běh programu.\n" +
+                                              "-------------------------------------------------------------------------------------------\n");
+                            Console.WriteLine("Zmáčkněte ENTER pro pokračování");
+                            Console.ReadLine();
+                            Console.Clear();
+                            break;
+
+                        case "5":
+                            RunUnitTests();
+                            break;
+
+                        case "0":
+                            exitProgram = true;
+                            break;
+
+                        default:
+                            Console.Clear();
+                            Console.WriteLine("Neplatná volba, zkuste to znovu\n");
                             break;
                     }
                 }
                 catch (Exception ex)
                 {
-                    // Zachycení výjimek
+                    //Console.WriteLine($"Vyskytl se během programu error: {ex.Message}");
                     logs.LogError(ex);
                     Console.WriteLine($"Vyskytl se během programu error, je zapsán do logu\n");
                 }
