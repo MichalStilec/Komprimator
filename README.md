@@ -5,6 +5,12 @@ Program je konzolová aplikace napsaná v jazyce C#, která provádí kompresi t
 1. Uživatel extrahuje zip soubor.
 2. Následně spustí exe soubor, který se nachází zde: TxtCompression\bin\Debug\net6.0\TxtCompression.exe.
 3. Program by měl být zaplý a můžete si libovolně vybrat možnosti 0-5 dle libosti.
+4. Složka data se používá pro jednoduchý výběr dat např. => data/input.txt
+5. Složka log obsahuje logs.json soubor, který ukládá všechny změny
+6. Složka config obsahuje soubor config.cfg, kde si program bere text na začátku programu, lze jednoduše změnit
+   - (pokud máte textový soubor mimo složku data, je potřeba uvést cestu k souboru (podobně jako v bodu 2.))
+
+   ![image](https://github.com/MichalStilec/Komprimator/assets/113086016/6cdb199a-6e4d-41fe-8ba1-2217d102ac8b)
 
 # Struktura programu
 
@@ -30,17 +36,24 @@ Program je konzolová aplikace napsaná v jazyce C#, která provádí kompresi t
 - Rozděluje text na slova.
 - Odstraňuje samohlásky ze slov.
 - Vrací modifikovaný text.
-  
+
+  ![image](https://github.com/MichalStilec/Komprimator/assets/113086016/18408d80-49e2-418a-94ad-9410f8ef76fb)
+
 ### Metoda RemoveVowels
 - Odstraňuje samohlásky ze zadaného řetězce.
 - Vrací modifikovaný řetězec.
-  
+
+  ![image](https://github.com/MichalStilec/Komprimator/assets/113086016/ee21e7a2-80b9-48e7-a40c-4ac09688bab4)
+
 ## Třída Config
 
 ### Metoda LoadInput a LoadResult
 - Načítá cestu k vstupnímu/výslednému souboru z konfiguračního souboru.
 - Kontroluje existenci souboru.
 - Vrací načtenou cestu nebo výchozí hodnotu.
+
+  ![image](https://github.com/MichalStilec/Komprimator/assets/113086016/ed7c78ad-6f1b-4199-8200-b8d092ccd126)
+
 
 ## Třída Logs
 ### Metoda LogSuccess
@@ -49,11 +62,18 @@ Program je konzolová aplikace napsaná v jazyce C#, která provádí kompresi t
 - Zaznamenává neúspěšné zprávy do logu ve formátu JSON.
 ### Metoda LogError
 - Zaznamenává chyby do logu ve formátu JSON.
+
+  ![image](https://github.com/MichalStilec/Komprimator/assets/113086016/1ab9fbfd-277a-4821-b7c5-7fcf8857db4d)
+
   
 ## Jak měnit soubory
 1. Program načte konfiguraci ze souboru TxtCompression\bin\Debug\net6.0\config\config.cfg, zde si můžete změnit počáteční soubory.
 2. Program také může načíst soubor dle cesty k vámi zadanému souboru, pro tuto možnost zmáčkněte 2 na začátku programu a cestu uvádějte **bez úvozovek!**
-3. Program má taky možnost změnit dle cesty k libovolnému txt souboru i místo uložení komprimovaného textu
+
+![image](https://github.com/MichalStilec/Komprimator/assets/113086016/41c92c5b-7a1d-4b3c-9f16-14e722a2fdc2)
+
+   
+4. Program má taky možnost změnit dle cesty k libovolnému txt souboru i místo uložení komprimovaného textu
 
 ## Ostatní poznámky
 - Program pracuje s českými znaky díky nastavení kódování na Encoding.UTF8.
