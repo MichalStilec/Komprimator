@@ -2,8 +2,9 @@
 Program je konzolová aplikace napsaná v jazyce C#, která provádí kompresi textového souboru odstraněním samohlásek ze slov. Program také umožňuje uživateli manipulovat s vstupními a výstupními soubory a spravovat místo, kam jsou ukládány logy.
 
 ## Způsob použití
-1. Uživatel stáhne
-2. 
+1. Uživatel extrahuje zip soubor.
+2. Následně spustí exe soubor, který se nachází zde: TxtCompression\bin\Debug\net6.0\TxtCompression.exe.
+3. Program by měl být zaplý a můžete si libovolně vybrat možnosti 0-5 dle libosti.
 
 # Struktura programu
 
