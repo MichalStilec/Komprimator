@@ -1,0 +1,195 @@
+{
+  "Timestamp": "2024-01-10T16:53:57.6652899+01:00",
+  "ErrorMessage": "\u0027d\u0027 is an invalid start of a value. Path: $ | LineNumber: 0 | BytePositionInLine: 0.",
+  "StackTrace": "   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack\u0026 state, JsonReaderException ex)\r\n   at System.Text.Json.Serialization.JsonConverter\u00601.ReadCore(Utf8JsonReader\u0026 reader, JsonSerializerOptions options, ReadStack\u0026 state)\r\n   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan\u00601 utf8Json, JsonTypeInfo jsonTypeInfo, Nullable\u00601 actualByteCount)\r\n   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan\u00601 json, JsonTypeInfo jsonTypeInfo)\r\n   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)\r\n   at TxtCompression.Program.Main(String[] args) in C:\\Users\\micha\\Documents\\School\\PV\\PV 2023-24\\TxtCompression\\Program.cs:line 119"
+}
+{
+  "Timestamp": "2024-01-10T16:56:40.7262742+01:00",
+  "SuccessMessage": "Komprese souboru generatedtext.txt byla uspesna"
+}
+{
+  "Timestamp": "2024-01-10T17:01:21.9551236+01:00",
+  "SuccessMessage": "Komprese souboru generatedtext.txt byla uspesna"
+}
+{
+  "Timestamp": "2024-01-10T17:01:53.2460442+01:00",
+  "SuccessMessage": "Komprese souboru generatedtext.txt byla uspesna"
+}
+{
+  "Timestamp": "2024-01-10T17:02:16.3535832+01:00",
+  "SuccessMessage": "Komprese souboru generatedtext.txt byla uspesna"
+}
+{
+  "Timestamp": "2024-01-10T17:03:03.9261888+01:00",
+  "SuccessMessage": "Komprese souboru generatedtext.txt byla uspesna"
+}
+{
+  "Timestamp": "2024-01-10T17:03:40.5180681+01:00",
+  "SuccessMessage": "Komprese souboru generatedtext.txt byla uspesna"
+}
+{
+  "Timestamp": "2024-01-10T17:04:15.8347049+01:00",
+  "SuccessMessage": "Komprese souboru generatedtext.txt byla uspesna"
+}
+{
+  "Timestamp": "2024-01-10T17:11:36.0928147+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z configu"
+}
+{
+  "Timestamp": "2024-01-10T17:11:53.8050633+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z configu"
+}
+{
+  "Timestamp": "2024-01-10T17:11:57.3480189+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z configu"
+}
+{
+  "Timestamp": "2024-01-10T17:14:22.0854713+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z configu"
+}
+{
+  "Timestamp": "2024-01-10T17:14:34.2003157+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z configu"
+}
+{
+  "Timestamp": "2024-01-10T17:14:49.3636874+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z configu"
+}
+{
+  "Timestamp": "2024-01-10T17:15:26.5492135+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z configu"
+}
+{
+  "Timestamp": "2024-01-10T17:15:36.5294829+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z configu"
+}
+{
+  "Timestamp": "2024-01-10T17:15:58.7458921+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z configu"
+}
+{
+  "Timestamp": "2024-01-10T17:16:40.7695014+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z configu"
+}
+{
+  "Timestamp": "2024-01-10T17:16:51.7958562+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z configu"
+}
+{
+  "Timestamp": "2024-01-10T17:17:26.555112+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z configu"
+}
+{
+  "Timestamp": "2024-01-10T17:17:41.5037727+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z configu"
+}
+{
+  "Timestamp": "2024-01-10T17:18:40.1826841+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z configu"
+}
+{
+  "Timestamp": "2024-01-10T17:22:38.2148823+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z configu"
+}
+{
+  "Timestamp": "2024-01-10T17:44:42.9535741+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z konfigurace"
+}
+{
+  "Timestamp": "2024-01-10T17:45:11.5880287+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z konfigurace"
+}
+{
+  "Timestamp": "2024-01-10T17:46:02.4119803+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z konfigurace"
+}
+{
+  "Timestamp": "2024-01-10T17:46:41.709328+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z konfigurace"
+}
+{
+  "Timestamp": "2024-01-10T17:46:47.4419128+01:00",
+  "SuccessMessage": "Soubor C:\\Users\\micha\\Desktop\\testos.txt byl uspesne nahran"
+}
+{
+  "Timestamp": "2024-01-10T17:46:50.5709128+01:00",
+  "SuccessMessage": "Komprese souboru C:\\Users\\micha\\Desktop\\testos.txt byla uspesna"
+}
+{
+  "Timestamp": "2024-01-10T17:47:13.4138566+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z konfigurace"
+}
+{
+  "Timestamp": "2024-01-10T17:47:14.9875722+01:00",
+  "SuccessMessage": "Komprese souboru data/generatedtext.txt byla uspesna"
+}
+{
+  "Timestamp": "2024-01-10T17:47:22.4963672+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z konfigurace"
+}
+{
+  "Timestamp": "2024-01-10T17:47:29.6342542+01:00",
+  "SuccessMessage": "Soubor data/input.txt byl uspesne nahran"
+}
+{
+  "Timestamp": "2024-01-10T17:47:31.9147743+01:00",
+  "SuccessMessage": "Komprese souboru data/input.txt byla uspesna"
+}
+{
+  "Timestamp": "2024-01-10T17:47:41.5128475+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z konfigurace"
+}
+{
+  "Timestamp": "2024-01-10T17:47:42.7408428+01:00",
+  "SuccessMessage": "Komprese souboru data/generatedtext.txt byla uspesna"
+}
+{
+  "Timestamp": "2024-01-10T18:11:20.7515975+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z konfigurace"
+}
+{
+  "Timestamp": "2024-01-10T18:18:18.6436593+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z konfigurace"
+}
+{
+  "Timestamp": "2024-01-10T18:19:08.0238743+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z konfigurace"
+}
+{
+  "Timestamp": "2024-01-10T18:19:10.6330355+01:00",
+  "ErrorMessage": "Could not find file \u0027C:\\Users\\micha\\Documents\\School\\PV\\PV 2023-24\\TxtCompression\\bin\\Debug\\net6.0\\generatedtext.txt\u0027.",
+  "StackTrace": "   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)\r\n   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)\r\n   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)\r\n   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)\r\n   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)\r\n   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)\r\n   at System.IO.File.InternalReadAllText(String path, Encoding encoding)\r\n   at System.IO.File.ReadAllText(String path)\r\n   at TxtCompression.Program.Main(String[] args) in C:\\Users\\micha\\Documents\\School\\PV\\PV 2023-24\\TxtCompression\\Program.cs:line 47"
+}
+{
+  "Timestamp": "2024-01-10T18:19:43.7740896+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z konfigurace"
+}
+{
+  "Timestamp": "2024-01-10T18:19:43.8012107+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z konfigurace"
+}
+{
+  "Timestamp": "2024-01-10T18:19:45.0826466+01:00",
+  "ErrorMessage": "Could not find file \u0027C:\\Users\\micha\\Documents\\School\\PV\\PV 2023-24\\TxtCompression\\bin\\Debug\\net6.0\\input.txt\u0027.",
+  "StackTrace": "   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)\r\n   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)\r\n   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)\r\n   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)\r\n   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)\r\n   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)\r\n   at System.IO.File.InternalReadAllText(String path, Encoding encoding)\r\n   at System.IO.File.ReadAllText(String path)\r\n   at TxtCompression.Program.Main(String[] args) in C:\\Users\\micha\\Documents\\School\\PV\\PV 2023-24\\TxtCompression\\Program.cs:line 47"
+}
+{
+  "Timestamp": "2024-01-10T18:19:49.0153875+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z konfigurace"
+}
+{
+  "Timestamp": "2024-01-10T18:19:49.0429223+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z konfigurace"
+}
+{
+  "Timestamp": "2024-01-10T18:20:07.6681073+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z konfigurace"
+}
+{
+  "Timestamp": "2024-01-10T18:20:07.6906597+01:00",
+  "FailMessage": "Program nedok\u00E1zal naj\u00EDt soubor z konfigurace"
+}
+{
+  "Timestamp": "2024-01-10T18:20:09.2526445+01:00",
+  "SuccessMessage": "Komprese souboru data/input.txt byla uspesna"
+}

@@ -1,0 +1,15 @@
+C:\Users\micha\Documents\School\PV\PV 2023-24\TxtCompression\bin\Debug\net6.0\TxtCompression.exe
+C:\Users\micha\Documents\School\PV\PV 2023-24\TxtCompression\bin\Debug\net6.0\TxtCompression.deps.json
+C:\Users\micha\Documents\School\PV\PV 2023-24\TxtCompression\bin\Debug\net6.0\TxtCompression.runtimeconfig.json
+C:\Users\micha\Documents\School\PV\PV 2023-24\TxtCompression\bin\Debug\net6.0\TxtCompression.dll
+C:\Users\micha\Documents\School\PV\PV 2023-24\TxtCompression\bin\Debug\net6.0\TxtCompression.pdb
+C:\Users\micha\Documents\School\PV\PV 2023-24\TxtCompression\obj\Debug\net6.0\TxtCompression.csproj.AssemblyReference.cache
+C:\Users\micha\Documents\School\PV\PV 2023-24\TxtCompression\obj\Debug\net6.0\TxtCompression.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\Documents\School\PV\PV 2023-24\TxtCompression\obj\Debug\net6.0\TxtCompression.AssemblyInfoInputs.cache
+C:\Users\micha\Documents\School\PV\PV 2023-24\TxtCompression\obj\Debug\net6.0\TxtCompression.AssemblyInfo.cs
+C:\Users\micha\Documents\School\PV\PV 2023-24\TxtCompression\obj\Debug\net6.0\TxtCompression.csproj.CoreCompileInputs.cache
+C:\Users\micha\Documents\School\PV\PV 2023-24\TxtCompression\obj\Debug\net6.0\TxtCompression.dll
+C:\Users\micha\Documents\School\PV\PV 2023-24\TxtCompression\obj\Debug\net6.0\refint\TxtCompression.dll
+C:\Users\micha\Documents\School\PV\PV 2023-24\TxtCompression\obj\Debug\net6.0\TxtCompression.pdb
+C:\Users\micha\Documents\School\PV\PV 2023-24\TxtCompression\obj\Debug\net6.0\TxtCompression.genruntimeconfig.cache
+C:\Users\micha\Documents\School\PV\PV 2023-24\TxtCompression\obj\Debug\net6.0\ref\TxtCompression.dll
