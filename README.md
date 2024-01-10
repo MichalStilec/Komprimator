@@ -18,6 +18,7 @@ Program je konzolová aplikace napsaná v jazyce C#, která provádí kompresi t
 - Obsahuje smyčku, která umožňuje uživateli provádět operace, dokud není zvolena možnost ukončení programu.
   
 ### Metoda RunUnitTests
+- Kvůli žádosti aby se program mohl spustit na školním PC jsem nestahoval žádné unit test knihovny
 - Obsahuje unit testy pro metody RemoveVowelsFromWords a RemoveVowels.
 - Vypisuje vstupy a očekávané výstupy.
 - Čeká na stisknutí ENTER pro pokračování.
