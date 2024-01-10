@@ -23,6 +23,9 @@ Program je konzolová aplikace napsaná v jazyce C#, která provádí kompresi t
 - Vypisuje vstupy a očekávané výstupy.
 - Čeká na stisknutí ENTER pro pokračování.
   
+  ![image](https://github.com/MichalStilec/Komprimator/assets/113086016/03796279-6aed-4507-bf89-b05e1bbbe581)
+
+  
 ### Metoda RemoveVowelsFromWords
 - Rozděluje text na slova.
 - Odstraňuje samohlásky ze slov.
